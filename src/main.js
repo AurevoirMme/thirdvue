@@ -9,6 +9,11 @@ import DetailAnaPage from './pages/detail/analysis'
 import DetailCouPage from './pages/detail/count'
 import DetailForPage from './pages/detail/forecast'
 import DetailPubPage from './pages/detail/publish'
+import ElementUI from 'element-ui'
+
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(ElementUI)
 Vue.use(VueRouter)
 Vue.use(VueResource)
 let router = new VueRouter({
